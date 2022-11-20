@@ -50,10 +50,10 @@ frame.place(x=480, y=70)
 heading=Label(frame, text='Sign in', fg='#035596', bg='#FCBA40', font=('Microsoft YaHei UI Light', 23, 'bold'))
 heading.place(x=120, y=20)
 
-#-----------------------
+#------------------------
 def on_enter(e):
     user.delete(0, 'end')
-
+    
 def on_leave(e):
     name =user.get()
     if name =="":
